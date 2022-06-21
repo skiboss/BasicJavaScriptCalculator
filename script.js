@@ -16,6 +16,8 @@ if (opr == "+"){
   result = firstValue / secondValue;
 } else if (opr == "%"){
   result = firstValue % secondValue;
+} else {
+  result = "Invalid due to wrong inputs!";
 }
 
 // Print the result to screen
